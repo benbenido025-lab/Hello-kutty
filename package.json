@@ -1,0 +1,24 @@
+{
+  "name": "stress-tester",
+  "version": "1.0.0",
+  "description": "Educational stress testing tool - Use only on authorized systems",
+  "main": "at.js",
+  "bin": {
+    "stress-tester": "./at.js"
+  },
+  "scripts": {
+    "start": "node at.js",
+    "list": "node at.js list",
+    "help": "node at.js help"
+  },
+  "keywords": ["stress-test", "benchmark", "educational", "load-testing"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dns-packet": "^5.4.0",
+    "minecraft-protocol": "^1.41.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
